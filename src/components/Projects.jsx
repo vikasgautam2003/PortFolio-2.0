@@ -158,7 +158,7 @@ export default function Projects() {
                   </div>
 
                   <div className="mt-4 flex flex-wrap gap-2">
-                    {project.tech.slice(0, 6).map((t) => (
+                    {project.tech.slice(0, 5).map((t) => (
                       <span
                         key={t}
                         className="px-3 py-1 text-[11px] rounded-full border border-black/20 text-black/70 bg-white hover:bg-black hover:text-white transition"

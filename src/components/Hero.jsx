@@ -129,26 +129,40 @@ export default function Hero() {
 
         <div className="relative inline-block w-full overflow-hidden">
           <motion.h1
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, ease: "easeOut" }}
-            className="
-              font-[var(--font-title)]
-              font-black
-              text-[clamp(3.8rem,18vw,10rem)]
-              sm:text-[clamp(5rem, 30vw,11.5rem)]
-              leading-[0.72]
-              tracking-[-0.075em]
-              scale-x-[0.82]
-              text-black
-              drop-shadow-[0_18px_45px_rgba(0,0,0,0.25)]
-              select-none
-              mx-auto
-            
-            "
-          >
-            Hi there, I'm Vikas
-          </motion.h1>
+  initial={{
+    opacity: 0,
+    y: 40,
+    scale: 0.96,
+    filter: "blur(6px)",
+  }}
+  animate={{
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    filter: "blur(0px)",
+  }}
+  transition={{
+    duration: 1.2,
+    ease: [0.22, 1, 0.36, 1], // premium easeOut
+  }}
+  className="
+    font-[var(--font-title)]
+    font-black
+    text-[clamp(3.8rem,18vw,10rem)]
+    sm:text-[clamp(5rem,30vw,11.5rem)]
+    leading-[0.72]
+    tracking-[-0.075em]
+    scale-x-[0.82]
+    text-black
+    drop-shadow-[0_20px_55px_rgba(0,0,0,0.22)]
+    select-none
+    mx-auto
+    relative
+  "
+>
+  Hi there, I'm Vikas
+</motion.h1>
+
         </div>
 
       <motion.p
