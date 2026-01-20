@@ -1,85 +1,3 @@
-// "use client";
-// import { motion } from "framer-motion";
-
-// export default function About() {
-//   return (
-//     <section
-//       id="about"
-//       className="relative min-h-screen w-full overflow-hidden bg-black"
-//     >
-//       <div className="absolute inset-0 grid grid-cols-3 md:grid-cols-4 gap-4 p-6 opacity-30">
-//         <div className="bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl" />
-//         <div className="bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl" />
-//         <div className="bg-gradient-to-br from-emerald-500 to-teal-500 rounded-xl" />
-//         <div className="bg-gradient-to-br from-yellow-400 to-orange-500 rounded-xl hidden md:block" />
-//         <div className="bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl hidden md:block" />
-//         <div className="bg-gradient-to-br from-rose-500 to-red-600 rounded-xl hidden md:block" />
-//         <div className="bg-gradient-to-br from-sky-500 to-cyan-600 rounded-xl hidden md:block" />
-//         <div className="bg-gradient-to-br from-lime-500 to-green-600 rounded-xl hidden md:block" />
-//       </div>
-
-//       <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/70 to-black" />
-
-//       <div className="absolute inset-0 flex items-center justify-center">
-//         <motion.div
-//           initial={{ opacity: 0, y: 40 }}
-//           whileInView={{ opacity: 1, y: 0 }}
-//           transition={{ duration: 1, ease: "easeOut" }}
-//           viewport={{ once: true }}
-//           className="relative z-10 max-w-2xl text-center px-6"
-//         >
-//           <motion.p
-//             initial={{ opacity: 0, y: 12 }}
-//             whileInView={{ opacity: 1, y: 0 }}
-//             transition={{ delay: 0.15, duration: 0.6 }}
-//             viewport={{ once: true }}
-//             className="text-cyan-400 text-xs tracking-[0.3em] uppercase mb-4"
-//           >
-//             About Me
-//           </motion.p>
-
-//           <motion.h2
-//             initial={{ opacity: 0, y: 16 }}
-//             whileInView={{ opacity: 1, y: 0 }}
-//             transition={{ delay: 0.3, duration: 0.7 }}
-//             viewport={{ once: true }}
-//             className="text-3xl md:text-4xl font-semibold text-white mb-6"
-//           >
-//             Hi There!
-//           </motion.h2>
-
-//           <motion.p
-//             initial={{ opacity: 0, y: 20 }}
-//             whileInView={{ opacity: 1, y: 0 }}
-//             transition={{ delay: 0.45, duration: 0.8 }}
-//             viewport={{ once: true }}
-//             className="text-gray-300 leading-relaxed mb-8"
-//           >
-//             I’m Vikas Gautam, a full-stack developer focused on building
-//             performant, scalable, and visually refined web experiences. I enjoy
-//             working at the intersection of engineering, motion, and design.
-//           </motion.p>
-
-//           <motion.div
-//             initial={{ opacity: 0, y: 16 }}
-//             whileInView={{ opacity: 1, y: 0 }}
-//             transition={{ delay: 0.6, duration: 0.6 }}
-//             viewport={{ once: true }}
-//             className="flex items-center justify-center gap-6 text-sm font-medium"
-//           >
-//             <a href="#contact" className="text-white hover:underline">
-//               Let’s Connect
-//             </a>
-//             <a href="#blog" className="text-white/70 hover:text-white">
-//               Blog
-//             </a>
-//           </motion.div>
-//         </motion.div>
-//       </div>
-//     </section>
-//   );
-// }
-
 
 
 
@@ -109,7 +27,7 @@ export default function About() {
     >
       <motion.div
         style={{ y: desktopY }}
-        className="absolute inset-0 hidden md:grid grid-cols-4 gap-6 p-10 opacity-30"
+        className="absolute inset-0 hidden md:grid grid-cols-4 gap-4 p-10 opacity-30"
       >
         <div className="bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl" />
         <div className="bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl" />
@@ -192,3 +110,5 @@ export default function About() {
     </section>
   );
 }
+
+
