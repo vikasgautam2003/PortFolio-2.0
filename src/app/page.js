@@ -6,6 +6,7 @@ import Contact from "@/components/Contact";
 import SkillsSection from "@/components/skills";
 import { skills } from "@/utils/skills";
 import Platforms from "@/components/platforms/Platforms";
+import Achievements from "@/components/Achievements";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <SkillsSection skills={skills} />
       <Projects />
       <Platforms />
+      <Achievements />
       <Contact />
       
       {/* Footer */}
