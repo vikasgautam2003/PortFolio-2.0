@@ -5,6 +5,7 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import SkillsSection from "@/components/skills";
 import { skills } from "@/utils/skills";
+import Platforms from "@/components/platforms/Platforms";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <SkillsSection skills={skills} />
       <Projects />
+      <Platforms />
       <Contact />
       
       {/* Footer */}

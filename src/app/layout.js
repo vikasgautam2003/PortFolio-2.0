@@ -36,6 +36,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       {/* 3. Add variables to the body class so Tailwind can see them */}
       <body className={`${manrope.variable} ${parisienne.variable} ${anton.variable} bg-background text-white antialiased`}>
+        <div id="modal-root"></div>
 
         {children}
       </body>

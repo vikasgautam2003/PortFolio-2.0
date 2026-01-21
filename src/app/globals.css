@@ -66,3 +66,17 @@ body {
     font-family: var(--font-signature), cursive;
   }
 }
+
+
+
+
+
+
+
+
+
+
+.navbar-hidden {
+  z-index: 0 !important;
+  pointer-events: none;
+}
