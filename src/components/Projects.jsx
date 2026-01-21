@@ -117,7 +117,7 @@ export default function Projects() {
               Engineering Products, Not Just Projects
             </h2>
 
-            <p className="mt-6 max-w-3xl mx-auto text-black/60 text-sm leading-relaxed">
+            <p className="mt-6 max-w-3xl mx-auto text-black/60 text-xl leading-relaxed">
               Select any project card to explore its complete system design,
               architecture decisions, technology stack, key features, and live
               implementation in detail.
