@@ -1,105 +1,3 @@
-// "use client";
-// import { motion } from "framer-motion";
-
-// export default function Hero() {
-//   return (
-//     <section className="relative min-h-[100svh] overflow-hidden bg-black flex items-center justify-center px-4">
-
-//       <div className="absolute top-[18%] left-1/2 -translate-x-1/2 w-[90vw] max-w-[720px] h-[90vw] max-h-[720px] bg-blue-900/55 blur-[140px]" />
-//       <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/70 to-black" />
-
-//       <div className="relative z-10 text-center w-full max-w-5xl">
-
-//         <p className="font-primary text-cyan-400 text-[0.65rem] sm:text-xs tracking-[0.3em] uppercase mb-6 opacity-90">
-//           Building performant, scalable web experiences
-//         </p>
-
-//         <div className="relative inline-block w-full overflow-hidden">
-//           <motion.h1
-//             initial={{ opacity: 0, y: 24 }}
-//             animate={{ opacity: 1, y: 0 }}
-//             transition={{ duration: 1 }}
-//             className="
-//               font-[var(--font-title)]
-//               font-black
-//               text-[clamp(3.5rem,18vw,9rem)]
-//               sm:text-[clamp(4.5rem,16vw,11rem)]
-//               leading-[0.75]
-//               tracking-[-0.07em]
-//               scale-x-[0.8]
-//               text-white
-//               drop-shadow-[0_18px_40px_rgba(0,0,0,0.65)]
-//               select-none
-//               mx-auto
-//             "
-//           >
-//             PORTFOLIO
-//           </motion.h1>
-
-//           <span
-//             className="
-//               absolute inset-0 flex items-center justify-center
-//               font-[var(--font-title)]
-//               text-[clamp(4rem,20vw,10rem)]
-//               sm:text-[clamp(5rem,18vw,12rem)]
-//               bg-gradient-to-b from-white/70 via-white/25 to-white/5
-//               bg-clip-text text-transparent
-//               mix-blend-overlay
-//               opacity-70
-//               pointer-events-none
-//               scale-x-[0.8]
-//             "
-//           >
-//             V
-//           </span>
-//         </div>
-
-//         <motion.div
-//           initial={{ opacity: 0, y: 20 }}
-//           animate={{ opacity: 1, y: 0 }}
-//           transition={{ delay: 0.9, duration: 0.6 }}
-//           className="mt-10 sm:mt-12 flex flex-col sm:flex-row items-center justify-center gap-4"
-//         >
-//           <a
-//             href="#projects"
-//             className="
-//               px-7 py-3 rounded-full
-//               font-primary text-sm font-semibold
-//               text-white
-//               bg-white/10
-//               backdrop-blur-md
-//               border border-white/15
-//               hover:bg-white hover:text-black
-//               transition-all duration-300
-//               w-full sm:w-auto
-//             "
-//           >
-//             Projects
-//           </a>
-
-//           <a
-//             href="#contact"
-//             className="
-//               px-8 py-3 rounded-full
-//               font-primary text-sm font-semibold
-//               text-black
-//               bg-[#ffd84d]
-//               hover:bg-[#ffcf2f]
-//               transition-all duration-300
-//               shadow-[0_10px_30px_rgba(255,216,77,0.35)]
-//               w-full sm:w-auto
-//             "
-//           >
-//             Connect with me
-//           </a>
-//         </motion.div>
-
-//       </div>
-//     </section>
-//   );
-// }
-
-
 
 
 
@@ -195,7 +93,7 @@ export default function Hero() {
           className="mt-12 sm:mt-16 flex flex-col sm:flex-row items-center justify-center gap-5"
         >
           <a
-            href="#projects"
+            href="/projects"
             className="
               px-8 py-3.5 rounded-full
               font-primary text-sm font-semibold

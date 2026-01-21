@@ -201,7 +201,7 @@ export const projects= [
         "/project/sys2.png"
     ],
 
-    video: "/sys.mp4",
+    video: "/project/sys.mp4",
 
     link: "https://blueprintx.vercel.app/",
     sourceCode: "https://github.com/vikasgautam2003/BlueprintX.ai",
