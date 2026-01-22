@@ -102,7 +102,7 @@ export default function Projects() {
 
   return (
     <>
-      <section className="relative py-32 px-6 bg-white overflow-hidden">
+      <section className="relative py-32 px-6 bg-white overflow-hidden" id="projects">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[700px] bg-black/5 blur-[160px]" />
         </div>

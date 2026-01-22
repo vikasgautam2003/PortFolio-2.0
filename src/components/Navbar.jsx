@@ -175,10 +175,10 @@ export default function Navbar() {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About Me", href: "#about" },
-    { name: "Portfolio", href: "#portfolio" },
-    { name: "Designs", href: "#designs" },
-    { name: "Services", href: "#services" },
-    { name: "Blog", href: "#blog" },
+    { name: "Project", href: "#projects" },
+    { name: "Github", href: "https://github.com/vikasgautam2003" },
+    { name: "Hugging Face", href: "https://huggingface.co/vikasgautam2003" },
+
   ];
 
   return (
@@ -271,16 +271,7 @@ export default function Navbar() {
             </button>
 
             <div className="h-full flex flex-col items-center justify-start pt-28 px-6">
-              <div className="w-full max-w-md mb-12">
-                <div className="flex items-center gap-3 px-5 py-3 rounded-full bg-white/5 border border-white/20">
-                  <span className="text-white/50">🔍</span>
-                  <input
-                    type="text"
-                    placeholder="Type here to search"
-                    className="bg-transparent outline-none text-white placeholder-white/40 w-full text-sm"
-                  />
-                </div>
-              </div>
+              
 
               <ul className="w-full max-w-md">
                 {navLinks.map((link) => (

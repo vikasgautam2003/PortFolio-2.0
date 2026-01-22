@@ -68,7 +68,7 @@ export const projects= [
     "/project/dev2.png"
   ],
   "video": "/project/dev.mp4",
-  "link": "https://chat-ops-steel.vercel.app/",
+  "link": "https://chat-ops-eight.vercel.app/",
   "sourceCode": "https://github.com/vikasgautam2003/Chat-Ops",
   "tech": [
     "Next.js",
