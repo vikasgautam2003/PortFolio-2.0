@@ -22,19 +22,29 @@ export default function ProjectModal({ project, onClose }) {
   const prev = () =>
     setIndex((i) => (i === 0 ? project.images.length - 1 : i - 1));
 
+
+
+
+
+
   return (
     <AnimatePresence>
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xl flex items-center justify-center px-3 sm:px-6"
-      >
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  exit={{ opacity: 0 }}
+   onClick={() => {
+    if (window.innerWidth >= 1024) onClose();
+  }}
+  className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xl flex items-center justify-center px-3 sm:px-6"
+>
+
         <motion.div
-          initial={{ y: 40, opacity: 0, scale: 0.96 }}
-          animate={{ y: 0, opacity: 1, scale: 1 }}
-          exit={{ y: 40, opacity: 0, scale: 0.96 }}
-          transition={{ duration: 0.45, ease: "easeOut" }}
+  onClick={(e) => e.stopPropagation()}
+  initial={{ y: 40, opacity: 0, scale: 0.96 }}
+  animate={{ y: 0, opacity: 1, scale: 1 }}
+  exit={{ y: 40, opacity: 0, scale: 0.96 }}
+  transition={{ duration: 0.45, ease: "easeOut" }}
           className="
             relative w-full max-w-6xl
             max-h-[92vh]

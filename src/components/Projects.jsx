@@ -131,7 +131,8 @@ export default function Projects() {
                 onClick={() => setActiveProject(project)}
                 whileHover={{ y: -8 }}
                 transition={{ duration: 0.3, ease: "easeOut" }}
-                className="group cursor-pointer aspect-square rounded-2xl border border-black/10 bg-white shadow-sm hover:shadow-xl transition overflow-hidden"
+                className="group cursor-pointer aspect-[5/6]
+ rounded-2xl border border-black/10 bg-white shadow-sm hover:shadow-xl transition overflow-hidden"
               >
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition">
                   <div className="absolute inset-0 bg-gradient-to-br from-black/5 via-transparent to-transparent" />
@@ -146,31 +147,47 @@ export default function Projects() {
                   />
                 </div>
 
-                <div className="relative h-1/2 p-6 flex flex-col justify-between">
-                  <div>
-                    <h3 className="text-lg font-medium text-black leading-snug">
-                      {project.title}
-                    </h3>
+                <div className="relative h-1/2 p-6 flex flex-col">
+  <div>
+    <h3 className="text-lg font-medium text-black leading-snug">
+      {project.title}
+    </h3>
 
-                    <p className="mt-3 text-sm text-black/60 leading-relaxed line-clamp-3">
-                      {project.description}
-                    </p>
-                  </div>
+    <p className="mt-3 text-sm text-black/60 leading-relaxed line-clamp-3">
+      {project.description}
+    </p>
+  </div>
 
-                  <div className="mt-4 flex flex-wrap gap-2">
-                    {project.tech.slice(0, 5).map((t) => (
-                      <span
-                        key={t}
-                        className="px-3 py-1 text-[11px] rounded-full border border-black/20 text-black/70 bg-white hover:bg-black hover:text-white transition"
-                      >
-                        {t}
-                      </span>
-                    ))}
-                  </div>
-                </div>
+  
+ 
+</div>
+
               </motion.div>
             ))}
           </div>
+          <div className="mt-20 flex justify-center">
+  <a
+    href="/projects"
+    className="
+      group
+      inline-flex items-center gap-3
+      px-10 py-4
+      rounded-full
+      bg-black
+      text-white
+      text-sm
+      font-medium
+      shadow-lg
+      hover:shadow-2xl
+      hover:scale-[1.03]
+      transition
+    "
+  >
+    View More Projects
+    <span className="transition group-hover:translate-x-1">→</span>
+  </a>
+</div>
+
         </div>
       </section>
 
