@@ -119,8 +119,17 @@ export default function ProjectsShowcase() {
             </div>
           </motion.div>
         </div>
+        <div className="mt-30 text-center">
+            
 
-        <div className="relative z-10 mt-32 pb-28 max-w-[92rem] mx-auto px-10">
+            <p className="mt-6 max-w-3xl mx-auto text-black/60 text-xl leading-relaxed">
+              Select any project card to explore its complete system design,
+              architecture decisions, technology stack, key features, and live
+              implementation in detail.
+            </p>
+          </div>
+
+        <div className="relative z-10 mt-20 pb-28 max-w-[92rem] mx-auto px-10">
           <div className="flex justify-between mb-10">
             <p className="text-xs tracking-[0.35em] uppercase text-black/40">
               Browse Projects
@@ -131,6 +140,7 @@ export default function ProjectsShowcase() {
               onChange={(e) => setSearch(e.target.value)}
               className="w-72 px-4 py-2 text-sm rounded-full border border-black/20"
             />
+            
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -152,10 +162,12 @@ export default function ProjectsShowcase() {
                   onMouseEnter={() => !isMobile && setHoveredProject(project)}
                   onMouseLeave={() => !isMobile && setHoveredProject(null)}
                   onClick={() =>
-                    isMobile
-                      ? setOpenProject(project)
-                      : setActiveIndex(i)
+                   
+                       setOpenProject(project)
+                      //  setActiveIndex(i)
                   }
+
+                  
                   whileHover={{ y: -6 }}
                   className="relative rounded-3xl overflow-hidden cursor-pointer shadow-[0_40px_120px_rgba(0,0,0,0.25)]"
                 >

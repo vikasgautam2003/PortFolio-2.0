@@ -24,7 +24,38 @@ export const projects= [
     ]
   },
   {
-    id: 2,
+  "id": 2,
+  "title": "KubePhoenix — Resilient DevOps Platform",
+  "description": "An enterprise-grade, automated microservices platform featuring self-healing architecture, zero-downtime deployments, and full-stack observability.",
+  "longDescriptions": [
+    "KubePhoenix demonstrates the power of modern cloud-native engineering by automating the entire software lifecycle—from code commit to production deployment. It serves as a resilient, self-healing infrastructure that guarantees high availability by automatically detecting and replacing failed service instances.",
+    "The platform utilizes a 'Docker-out-of-Docker' CI/CD pipeline driven by Jenkins to build and push optimized Next.js containers. It leverages Helm for dynamic release management and Kubernetes for orchestration, while a dedicated Prometheus and Grafana stack provides deep insights into CPU, memory, and network metrics in real-time."
+  ],
+  "images": ["/project/kube.png"],
+  "video": "",
+  "link": "",
+  "sourceCode": "https://github.com/vikasgautam2003/Hybrid-DevOps-Architecture-Project",
+  "tech": [
+    "Kubernetes",
+    "Docker",
+    "Jenkins",
+    "Helm",
+    "Prometheus",
+    "Grafana",
+    "Next.js",
+    "TypeScript"
+  ],
+  "message": "This project is infrastructure-focused. The live link connects to a local Kubernetes NodePort and requires the cluster to be active.",
+  "keyFeatures": [
+    "Automated CI/CD pipeline with Jenkins and 'Docker-out-of-Docker' architecture",
+    "Self-healing capability (ReplicaSets instantly resurrect deleted pods)",
+    "Zero-downtime Rolling Updates via dynamic Helm Chart versioning",
+    "Full-stack observability with real-time Prometheus scraping and Grafana dashboards",
+    "Optimized Next.js frontend with 'Standalone' builds and dynamic server-side rendering"
+  ]
+},
+  {
+    id: 3,
     title: "Package Forge - Autonomous NPM Package Architect",
     description: "A Private PaaS that autonomously architects, tests in Docker, and publishes npm packages using a hybrid cloud-local engine.",
     longDescriptions: [
@@ -55,7 +86,7 @@ export const projects= [
     ]
 },
 {
-  "id": 3,
+  "id": 4,
   "title": "OpsChat — Natural Language DevOps Interface",
   "description": "A chat-driven DevOps platform that allows developers to interact with Docker containers and Kubernetes workloads locally using plain English, without writing commands.",
   "longDescriptions": [
@@ -97,7 +128,7 @@ export const projects= [
 }
 ,
 {
-    id: 4,
+    id: 5,
     title: "Draftify.ai - The AI Web App Architect",
     description: "A next-generation AI coding platform that generates, previews, and refines full-stack web applications instantly.",
     longDescriptions: [
@@ -128,7 +159,7 @@ export const projects= [
     ]
 },
 {
-  "id": 5,
+  "id": 6,
   "title": "Alison IDE - Browser-Native AI Environment",
   "description": "A futuristic, browser-based IDE that boots a full Node.js container locally, powered by an intelligent AI coding assistant.",
   "longDescriptions": [
@@ -136,7 +167,7 @@ export const projects= [
     "The platform features a deeply integrated AI Copilot capable of reading your file system, generating complex components, and performing surgical code refactors. With a fully functional Xterm.js terminal and instant hot-reloading preview, Alison provides a complete development lifecycle from prompt to deployment."
   ],
   "images": ["/project/alison.png", "/project/alison1.png", "/project/alison2.png"],
-  "video": "/project/alison.mp4",
+  "video": "",
   "link": "https://ai-powered-browser-ide-project.vercel.app/",
   "sourceCode": "https://github.com/vikasgautam2003/AI-Powered-Browser-IDE-Project",
   "tech": ["Next.js", "TypeScript", "WebContainers", "Gemini API", "Xterm.js", "Tailwind CSS", "Zustand"],
@@ -150,7 +181,7 @@ export const projects= [
   ]
 },
 {
-    id: 6,
+    id: 7,
     title: "BackNest.ai – The AI Backend Architect",
     description: "A powerful AI-driven backend generator that produces complete, production-grade backend architectures with modular files, controllers, routes, models, middleware, and services — all from a single prompt.",
     longDescriptions: [
@@ -186,7 +217,7 @@ export const projects= [
 }
 ,
 {
-    id: 7,
+    id: 8,
     title: "BlueprintX – AI System Architecture Generator",
     description: "An advanced AI architect that converts ideas into production-ready diagrams, tech stacks, and system explanations instantly.",
     
@@ -236,7 +267,7 @@ export const projects= [
 
 
     {
-  "id": 8,
+  "id": 9,
   "title": "QueryAI",
   "description": "An AI-powered search engine that provides summarized, sourced answers from real-time web results, inspired by Perplexity.",
   "longDescriptions": [
@@ -272,7 +303,7 @@ export const projects= [
   ]
 },
 {
-  "id": 9,
+  "id": 10,
   "title": "CogniCare AI: RAG Mental Health Chatbot",
   "description": "A RAG-powered, empathetic AI chatbot for mental health support.",
   "longDescriptions": [
@@ -304,7 +335,7 @@ export const projects= [
   ]
 },
 {
-    "id": 10,
+    "id": 11,
     "title": "Minerva.ai : Medical RAG Assistant",
     "description": "An AI-powered system providing precise, health analysis based only on user-uploaded medical reports using Gemini and Pinecone.",
     "longDescriptions": [
@@ -332,7 +363,7 @@ export const projects= [
 },
 
  {
-    id: 11,
+    id: 12,
     title: "Hostel Committee Web Portal (HOSTYEL)",
     description: "A comprehensive Student Living OS and Hostel Management System powered by Generative AI.",
     longDescriptions: [
@@ -363,7 +394,7 @@ export const projects= [
     ]
 },
 {
-    "id": 12,
+    "id": 13,
     "title": "NeuraPost : Autonomous Social Media Agent",
     "description": "An AI-powered, multi-platform content automation system that autonomously creates and posts intelligent content across X, LinkedIn, and Instagram using Gemini and MCP architecture.",
     "longDescriptions": [
@@ -402,7 +433,7 @@ export const projects= [
 ,
 
 {
-  "id": 13,
+  "id": 14,
   "title": "OnePngAi",
   "description": "An AI-powered image generator for creating high-quality, transparent PNG assets.",
   "longDescriptions": [
@@ -432,7 +463,7 @@ export const projects= [
   ]
 },
 {
-  "id": 14,
+  "id": 15,
   "title": "VidQuery: YouTube RAG Chatbot",
   "description": "An AI-powered RAG chatbot that allows users to ask questions about YouTube videos and receive answers based on the video's transcript.",
   "longDescriptions": [
@@ -466,7 +497,7 @@ export const projects= [
 
  
   {
-  id: 15,
+  id: 16,
   title: "Syntaxly.ai",
   description: "AI-Powered Code Reviewer for Developers.",
   longDescriptions: [
@@ -487,7 +518,7 @@ export const projects= [
 },
 
 {
-  id: 16,
+  id: 17,
   title: "FormForge.ai – AI Form Generator",
   description:
     "An AI-powered tool that converts natural language prompts into clean JSON form schemas and instantly renders a fully styled, production-ready UI.",
@@ -538,7 +569,7 @@ export const projects= [
 
 
  {
-    id: 17,
+    id: 18,
     title: "Bonzo Games",
     description: "A happy place where you can play classic games for some fun.",
     longDescriptions: [
@@ -559,7 +590,7 @@ export const projects= [
   },
  
   {
-    id: 18,
+    id: 19,
     title: "Multithreaded Java Web Server",
     description: "A high-performance TCP server in Java supporting multiple concurrent clients using a thread pool.",
     longDescriptions: [
@@ -580,7 +611,7 @@ export const projects= [
   },
 
   {
-    "id": 19,
+    "id": 20,
     "title": "Locatrix : Live Location Tracker",
     "description": "A real-time web application that visualizes and shares users’ live GPS positions using Leaflet, OpenStreetMap, and Socket.IO for instant updates.",
     "longDescriptions": [
