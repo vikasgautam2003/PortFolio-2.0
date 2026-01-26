@@ -7,6 +7,7 @@ import SkillsSection from "@/components/skills";
 import { skills } from "@/utils/skills";
 import Platforms from "@/components/platforms/Platforms";
 import Achievements from "@/components/Achievements";
+import ChitkaraExamAssistantShowcase from "@/components/npmRegistry";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <SkillsSection skills={skills} />
       <Projects />
+      <ChitkaraExamAssistantShowcase />
       <Platforms />
       <Achievements />
       <Contact />
