@@ -7,13 +7,17 @@ export const skills = [
   { name: "WebRTC", image: "/skills/webrtc.svg", category: "Frontend", description: "Real-time communication for audio, video, and data." },
 
   { name: "Node.js", image: "/skills/nodejs.svg", category: "Backend", description: "JavaScript runtime for building servers." },
+  { name: "Express.js", image: "/skills/express.svg", category: "Backend", description: "Minimalist web framework for Node.js." },
+  { name: "JWT", image: "/skills/jsonwebtokens.svg", category: "Backend", description: "JSON Web Tokens for secure authentication." },
   { name: "FastAPI", image: "/skills/Fastapi.svg", category: "Backend", description: "High-performance Python framework for APIs." },
+  { name: "Apache Kafka", image: "/skills/kafka.svg", category: "Backend", description: "A distributed event streaming platform." },
   { name: "Prisma", image: "/skills/prisma.svg", category: "Backend", description: "Next-gen ORM for Node.js & TypeScript." },
   { name: "PostgreSQL", image: "/skills/postgresql.svg", category: "Backend", description: "A powerful, open-source relational database." },
+  { name: "BullMQ", image: "/skills/bull.svg", category: "Backend", description: "A simple, in-memory job queue for Node.js." },
+  { name: "Redis", image: "/skills/redis.svg", category: "Backend", description: "In-memory key-value store for fast data access." },
   { name: "MongoDB", image: "/skills/mongo.svg", category: "Backend", description: "Popular NoSQL document database." },
   { name: "MySQL", image: "/skills/mysql.svg", category: "Backend", description: "The world's most popular open-source database." },
   { name: "Supabase", image: "/skills/supabase.svg", category: "Backend", description: "Firebase alternative built on PostgreSQL." },
-  { name: "MCP Servers", image: "/skills/mcp.svg", category: "Backend", description: "Modular, tool-based server architecture for LLMs." },
 
   { name: "Golang", image: "/skills/golang.svg", category: "Languages", description: "A language known for simplicity and speed." },
   { name: "Python", image: "/skills/python.svg", category: "Languages", description: "Versatile language for web, data & AI." },
@@ -21,12 +25,22 @@ export const skills = [
   { name: "Java", image: "/skills/java.svg", category: "Languages", description: "Class-based, object-oriented language." },
 
   { name: "Docker", image: "/skills/docker.svg", category: "DevOps", description: "Platform for containerizing applications." },
+  { name: "Kubernetes", image: "/skills/kubernetes.svg", category: "DevOps", description: "Open-source container orchestration platform." },
   { name: "NGINX", image: "/skills/NGINX.svg", category: "DevOps", description: "High-performance web server & reverse proxy." },
   { name: "Vercel", image: "/skills/vercel.svg", category: "DevOps", description: "Cloud platform optimized for the frontend." },
   { name: "Render", image: "/skills/render.svg", category: "DevOps", description: "Unified cloud for apps and web services." },
   { name: "Railway", image: "/skills/railway.svg", category: "DevOps", description: "Infrastructure platform for developers." },
   { name: "Postman", image: "/skills/Postman.svg", category: "DevOps", description: "API testing & collaboration platform." },
+  { name: "Upstash", image: "/skills/upstash.svg", category: "DevOps", description: "High-performance Redis alternative." },
+  { name: "GitHub Actions", image: "/skills/githubactions.svg", category: "DevOps", description: "CI/CD automation platform." },
+  { name: "Jenkins", image: "/skills/jenkins.svg", category: "DevOps", description: "Open-source automation server." },
+  { name: "Sentry", image: "/skills/sentry.svg", category: "DevOps", description: "Error tracking & monitoring platform." },
+  { name: "Git", image: "/skills/git.svg", category: "DevOps", description: "Distributed version control system." },
 
+  { name: "RAG Architectures", image: "/skills/rag.svg", category: "AI", description: "A collection of RAG architectures." },
+  { name: "Pinecone", image: "/skills/pinecone.svg", category: "AI", description: "Vector database for LLMs." },
+  { name: "Sci-Kit Learn", image: "/skills/scikitlearn.svg", category: "AI", description: "Python library for machine learning." },
+  { name: "MCP Servers", image: "/skills/mcp.svg", category: "AI", description: "Modular, tool-based server architecture for LLMs." },
   { name: "Gemini API", image: "/skills/gemini.svg", category: "AI", description: "Access Google's powerful generative models." },
   { name: "Groq API", image: "/skills/groq.svg", category: "AI", description: "High-speed inference API for running LLMs blazingly fast." },
   { name: "Llama 3 API", image: "/skills/llama.svg", category: "AI", description: "Meta's powerful open-source LLM family." },
@@ -42,3 +56,4 @@ export const skills = [
   { name: "Dialogflow", image: "/skills/dialogflow.svg", category: "AI", description: "Build conversational AI experiences." },
   { name: "Streamlit", image: "/skills/Streamlit.svg", category: "AI", description: "Build and share data apps, fast." },
 ];
+
