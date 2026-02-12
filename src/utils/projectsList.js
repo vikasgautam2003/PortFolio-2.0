@@ -24,6 +24,37 @@ export const projects= [
     ]
   },
   {
+    "id": 6,
+    "title": "DocuNexus - Advanced RAG Document Intelligence",
+    "description": "An AI-powered document research platform that transforms static PDFs into interactive knowledge hubs using Agentic RAG.",
+    "longDescriptions": [
+        "DocuNexus leverages a multi-agent orchestration layer to go beyond simple search. It uses a high-concurrency Celery worker system to process documents and a LangGraph-driven reasoning engine to provide deep context-aware answers.",
+        "Built for researchers and developers, it features a distributed architecture where a FastAPI backend handles real-time extraction, while a Chroma Cloud-backed vector store ensures lightning-fast retrieval across thousands of document chunks."
+    ],
+  
+    "images": ["/project/docn5.png", "/project/docn2.png", "/project/docn4.png", "/project/docn1.png"],
+    "video": "/project/docn3.mp4", 
+    "link": "https://docunexusai.vercel.app/",
+    "sourceCode": "https://github.com/vikasgautam2003/DocuNexus-Your-AI-PDF-Assistant", 
+    "tech": [
+        "Next.js 15 (TypeScript)",
+        "FastAPI & Celery",
+        "Google Gemini 2.5 Flash",
+        "LangChain & LangGraph",
+        "Chroma Cloud & Redis",
+        "Tailwind CSS & Shadcn/UI"
+    ],
+    "message": "Processing speed may vary depending on document length. Best experienced with text-selectable PDFs.",
+    "keyFeatures": [
+        "📑 Agentic RAG: Uses LangGraph to verify answers and perform multi-step reasoning before responding.",
+        "📊 Automatic Briefing: Instantly generates a structured executive summary and suggested questions upon document upload.",
+        "😈 Nemesis Mode: A unique reasoning personality that critically audits documents to find contradictions or weak points.",
+        "🃏 AI Flashcards: Automatically generates high-quality study sets based on the core concepts found in your files.",
+        "🌍 Deep Research: Integrated Web Search API allows the AI to cross-reference document data with real-time internet results.",
+        "⚡ Distributed Processing: Offloads heavy PDF extraction and embedding tasks to a dedicated worker queue for a lag-free UI."
+    ]
+},
+  {
   "id": 2,
   "title": "KubePhoenix — Resilient DevOps Platform",
   "description": "An enterprise-grade, automated microservices platform featuring self-healing architecture, zero-downtime deployments, and full-stack observability.",
@@ -167,7 +198,7 @@ export const projects= [
     "The platform features a deeply integrated AI Copilot capable of reading your file system, generating complex components, and performing surgical code refactors. With a fully functional Xterm.js terminal and instant hot-reloading preview, Alison provides a complete development lifecycle from prompt to deployment."
   ],
   "images": ["/project/alison.png", "/project/alison1.png", "/project/alison2.png"],
-  "video": "",
+  "video": "/project/alison2.mp4",
   "link": "https://ai-powered-browser-ide-project.vercel.app/",
   "sourceCode": "https://github.com/vikasgautam2003/AI-Powered-Browser-IDE-Project",
   "tech": ["Next.js", "TypeScript", "WebContainers", "Gemini API", "Xterm.js", "Tailwind CSS", "Zustand"],
@@ -302,6 +333,54 @@ export const projects= [
     "Distinct 'Search' vs. 'Research' modes with different data sources (Google vs. Google Scholar)"
   ]
 },
+{
+  "id": 7,
+  "title": "AlgoLedger - Local-First DSA Progress Tracker",
+  "description": "A distraction-free desktop system for tracking Data Structures and Algorithms practice with deterministic progress metrics and complete local ownership.",
+
+  "longDescriptions": [
+    "AlgoLedger is built as an offline-first desktop application that eliminates cloud sync, accounts, and external dependencies. Every problem, topic, and statistic is stored locally and computed deterministically, ensuring accuracy and long-term reliability without vendor lock-in.",
+    "Designed for engineers who value control and consistency, AlgoLedger uses a static Next.js frontend packaged with Tauri to deliver native performance, instant startup, and zero-runtime servers. The result is a lightweight, private, and permanent personal tracking system."
+  ],
+
+  "images": [
+    "/project/algo2.png",
+    "/project/algo1.png",
+    "/project/algo.png"
+  ],
+
+  "video": "/project/algo.mp4",
+
+  "link": "https://algoledger.vercel.app/",
+
+  "sourceCode": "https://github.com/vikasgautam2003/AlgoLedger-App---Your-DSA-Progress-Tracker",
+
+  "tech": [
+    "Next.js 16 (App Router)",
+    "Tauri (Rust Desktop Runtime)",
+    "Zustand State Management",
+    "Static Export Architecture",
+    "LocalStorage Persistence",
+    "Framer Motion",
+    "Tailwind CSS"
+  ],
+
+  "message": "All data is stored locally on your device. Reinstalling the app or clearing storage resets progress unless backed up manually.",
+
+  "keyFeatures": [
+    "🖥️ Native Desktop App: Packaged with Tauri for instant startup, minimal memory usage, and zero browser dependency.",
+    "🔒 Offline-First Architecture: Works entirely without internet, servers, or accounts. Your data never leaves your machine.",
+    "📥 Flexible Sheet Upload: Import messy Excel or Google Sheets JSON exports. Fields are auto-detected and normalized automatically.",
+    "📊 Deterministic Progress Metrics: All completion and revision statistics are computed directly from the source dataset — no cached or derived state.",
+    "🗂️ Topic-Centric Workflow: Track mastery topic-by-topic with clear status states (Not Done, Done, Revision).",
+    "⚡ Instant Performance: Static build with no runtime backend ensures fast load times and smooth interaction.",
+    "🔎 Question Search (Planned): Quickly find problems by title or keyword across the entire dataset.",
+    "♻️ One-Click Reset: Replace or reset your dataset at any time without reinstalling the application.",
+    "📱 Responsive Desktop UI: Premium dark interface with smooth animations, built specifically for focused study sessions.",
+    "🧩 Zero Dependencies: No authentication, no cloud sync, no AI, and no external services — fully self-contained."
+  ]
+}
+,
 {
   "id": 10,
   "title": "CogniCare AI: RAG Mental Health Chatbot",
